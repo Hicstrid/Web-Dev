@@ -1,0 +1,83 @@
+body {
+    background-image: url(background\ image\ for\ homepage.jfif);
+    background-color: #a79595;
+    font-family: Arial, sans-serif;
+    color: #796969;
+}
+
+background-image[
+    w
+]
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #e6e6fa;
+}
+
+header h1 {
+    font-size: 2em;
+    color: #333;
+}
+
+
+.slogan {
+    font-style: italic;
+    color: #a0522d;
+    margin-top: 10px;
+}
+
+.navibar {
+    background-color: #333;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+.navibar ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navibar li {
+    margin: 0;
+}
+
+.navibar a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1em;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.navibar a:hover {
+    background-color: #555;
+    color: #f4f4f9;
+}
+
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+main h4 {
+    color: #333;
+    font-size: 1.2em;
+    margin: 15px 0;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #f5f5f5;
+    padding: 10px;
+    font-size: 0.9em;
+}
+

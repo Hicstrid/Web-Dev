@@ -1,0 +1,54 @@
+body{
+    background-color: lavender;
+    background-image: url(background\ image\ for\ contact\ us.jfif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navibar {
+    background-color: #333;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+.navibar ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navibar li {
+    margin: 0;
+}
+
+.navibar a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1em;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.navibar a:hover {
+    background-color: #555;
+    color: #f4f4f9;
+}
+
+@media screen and (min-width: 480px) {
+    #leftsidebar {width: 200px; float: left;}
+    #main {margin-left: 216px;}
+  }
+
+h4{
+    font-size: 15pt;
+    font-style: italic;
+}
